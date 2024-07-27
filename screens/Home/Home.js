@@ -18,42 +18,42 @@ import {Routes} from '../../navigation/Routes';
 const Home = ({navigation}) => {
   const userStories = [
     {
-      firstName: 'Joseph',
+      firstName: 'Coni',
       id: 1,
-      profileImage: require('../../assets/images/default_profile.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
     }, //0
     {
       firstName: 'Angel',
       id: 2,
-      profileImage: require('../../assets/images/default_profile.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
     },
     {
-      firstName: 'White',
+      firstName: 'Nico',
       id: 3,
-      profileImage: require('../../assets/images/default_profile.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
     },
     {
       firstName: 'Olivier',
       id: 4,
-      profileImage: require('../../assets/images/default_profile.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
     },
     {
-      firstName: 'Nata',
+      firstName: 'Robert',
       id: 5,
-      profileImage: require('../../assets/images/default_profile.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
     }, //4
     {
-      firstName: 'Nicolas',
+      firstName: 'Rami',
       id: 6,
       profileImage: require('../../assets/images/default_profile.png'),
     },
     {
-      firstName: 'Nino',
+      firstName: 'Owen',
       id: 7,
       profileImage: require('../../assets/images/default_profile.png'),
     },
     {
-      firstName: 'Nana',
+      firstName: 'Maria',
       id: 8,
       profileImage: require('../../assets/images/default_profile.png'),
     },
@@ -65,36 +65,36 @@ const Home = ({navigation}) => {
   ];
   const userPosts = [
     {
-      firstName: 'Allison',
-      lastName: 'Becker',
-      location: 'Boston, MA',
+      firstName: 'Nico',
+      lastName: 'Elvino',
+      location: 'Sydney, NSW',
       likes: 1201,
       comments: 24,
       bookmarks: 55,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
+      image: require('../../assets/images/display-picture-11.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
       id: 1,
     },
     {
-      firstName: 'Jennifer',
-      lastName: 'Wilkson',
-      location: 'Worcester, MA',
+      firstName: 'Olivia',
+      lastName: 'Smith',
+      location: 'Melbourne, SA',
       likes: 1301,
       comments: 25,
       bookmarks: 70,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
+      image: require('../../assets/images/display-picture-2.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
       id: 2,
     },
     {
       firstName: 'Adam',
       lastName: 'Spera',
-      location: 'Worcester, MA',
+      location: 'Byron Bay, NSW',
       likes: 100,
       comments: 8,
       bookmarks: 3,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
+      image: require('../../assets/images/display-picture-3.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
       id: 3,
     },
     {
@@ -104,8 +104,8 @@ const Home = ({navigation}) => {
       likes: 200,
       comments: 16,
       bookmarks: 6,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
+      image: require('../../assets/images/display-picture-4.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
       id: 4,
     },
     {
@@ -115,8 +115,8 @@ const Home = ({navigation}) => {
       likes: 2000,
       comments: 32,
       bookmarks: 12,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
+      image: require('../../assets/images/display-picture-5.png'),
+      profileImage: require('../../assets/images/profilePicture-1.png'),
       id: 5,
     },
   ];
@@ -159,7 +159,7 @@ const Home = ({navigation}) => {
           ListHeaderComponent={
             <>
               <View style={style.header}>
-                <Title title={'Let’s Explore'} />
+                <Title title={'Nico’s App'} />
                 <TouchableOpacity style={style.messageIcon}>
                   <FontAwesomeIcon
                     icon={faEnvelope}
